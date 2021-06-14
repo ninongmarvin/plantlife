@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Plants</title>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./public/styles.css">
     <script src="https://kit.fontawesome.com/78c6064977.js" crossorigin="anonymous"></script>
   </head>
   <body class="bg-green-200">
     <div class="bg-green-500 flex justify-between p-5 w-full shadow-xl">
       <div class="text-xl text-green-900 text-semi">
-        <i class="fas fa-seedling">
-          <span class="curs">Plant Life</span>
-        </i>
+        <a href="#">
+          <i class="fas fa-seedling">
+            <span class="curs">Plant Life</span>
+          </i>
+        </a>
       </div>
       <div class="space-x-8 text-center font-bold text-gray-800 text-xl curs tracking-wider">
         <a class="hover:border-gray-300" href="#">Home</a>
@@ -60,9 +61,9 @@
       <h1 class="curs">Newest Plants</h1>
     </div>
 
-    <div class="grid grid-cols-5 gap-5 m-20">
+    <div class="grid lg:grid-cols-5 grid-cols-2 gap-5 m-20">
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2019/02/19/08/58/plant-4006379_960_720.png" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2019/02/19/08/58/plant-4006379_960_720.png" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -72,7 +73,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2017/08/01/18/30/green-2567165_960_720.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2017/08/01/18/30/green-2567165_960_720.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -82,7 +83,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2016/12/17/18/51/lilacs-1914124_960_720.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2016/12/17/18/51/lilacs-1914124_960_720.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -92,7 +93,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2019/04/07/20/20/hyacinth-4110726_960_720.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2019/04/07/20/20/hyacinth-4110726_960_720.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -102,7 +103,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2019/12/01/23/39/flowers-4666664_960_720.png" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2019/12/01/23/39/flowers-4666664_960_720.png" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -113,7 +114,7 @@
       </div>
 
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2019/02/19/08/58/plant-4006379_960_720.png" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2019/02/19/08/58/plant-4006379_960_720.png" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -123,7 +124,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2017/08/01/18/30/green-2567165_960_720.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2017/08/01/18/30/green-2567165_960_720.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -133,7 +134,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2016/12/17/18/51/lilacs-1914124_960_720.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2016/12/17/18/51/lilacs-1914124_960_720.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -143,7 +144,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2019/04/07/20/20/hyacinth-4110726_960_720.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2019/04/07/20/20/hyacinth-4110726_960_720.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -153,7 +154,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="https://cdn.pixabay.com/photo/2019/12/01/23/39/flowers-4666664_960_720.png" alt="">
+        <img class="plants h-44 w-full content-cover" src="https://cdn.pixabay.com/photo/2019/12/01/23/39/flowers-4666664_960_720.png" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -174,9 +175,9 @@
     </div>
 
 
-    <div class="grid grid-cols-5 gap-5 m-20">
+    <div class="grid lg:grid-cols-5 grid-cols-2 gap-5 m-20">
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds1.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds1.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -186,7 +187,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds2.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds2.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -196,7 +197,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds3.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds3.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -206,7 +207,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds4.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds4.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -216,7 +217,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds5.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds5.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -227,7 +228,7 @@
       </div>
 
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds1.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds1.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -237,7 +238,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds2.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds2.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -247,7 +248,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds3.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds3.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -257,7 +258,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds4.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds4.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
@@ -267,7 +268,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1">
-        <img class="plants" src="./images/seeds5.jpg" alt="">
+        <img class="plants h-44 w-full content-cover" src="./images/seeds5.jpg" alt="">
         <div class="flex justify-between bg-green-600 p-2 text-white">
           <a href="#">
             <i class="fas fa-long-arrow-alt-right"></i>
